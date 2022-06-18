@@ -4,6 +4,7 @@
 
 ### 2) struct java folders
 com -> sun ->jna ->exmaple
+
 com과 같은 위치에 jna.jar를 위치시킨다.
 
 ### 3) make shared lib
