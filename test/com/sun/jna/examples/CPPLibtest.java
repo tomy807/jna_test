@@ -6,7 +6,7 @@ import com.sun.jna.Native;
 public class CPPLibtest {
     public interface CLibrary extends Library{
       CLibrary instance =
-          Native.load("/home/tomy807/jna_library_test/build/src/libjnalsw.so", CLibrary.class);
+          Native.load("jnalsw", CLibrary.class);
       int add(int a, int b);
       int minus(int a, int b);
     }
